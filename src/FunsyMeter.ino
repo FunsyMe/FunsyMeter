@@ -63,7 +63,7 @@ void yield() {
   if (!serMode) { // Если обычные режим
     if (up.click()) { // Если кнопка вверх нажата
       dispBright += 1; // Увеличить яркость
-      dispBright = constrain(dispBright, 0, 15); // Обрезать яркосить
+      dispBright = constrain(dispBright, 0, 15); // Обрезать яркость
       disp.brightness(dispBright); // Применить яркость на дисплей
     }
 
